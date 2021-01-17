@@ -2,3 +2,12 @@
   margin: auto;
   position: relative;
 }
+
+
+@media screen and (max-width: 767px) {
+
+  .cover__texts {
+    margin: auto 16px auto 16px;
+  }
+
+}

@@ -1,0 +1,14 @@
+.place-card__website {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+
+  .place-card__website {
+    display: none;
+  }
+
+}
