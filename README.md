@@ -1,20 +1,34 @@
+
 # Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
+This project focused on making a website that has a responsive layout. This means making the website adjust to different screen resolutions to allow different devices to display the page in a more pleasing form.
 
-**Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+## Functionality
 
-**Figma**
+* The CSS code will adjust the size of elements to better fit the resolution it is being displayed on
 
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
+* The elements that make up the website use less fixed values to allow the website to scale easier
 
-**Images**
+## Technologies & Techniques
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+**Technologies:**
 
-Good luck and have fun!
+* Visual Studio Code: Developing the website's code
+
+* Figma: Layout reference for the webpage
+
+* Git: updating and tracking versions of the code
+
+* Github: Holding the versions and hosting the webpage with Github Pages
+
+**Techniques:**
+
+* The @media query to tell the CSS which elements should change at certain resolutions
+
+* Grid layout for it's scalability and ease of use for creating grids with little amount of code
+
+* Utilized percentages, viewport size, and the calc() function to control the size of elements instead of fixed values
+___
+**Website:** _[Link to the website](https://kennethtraynor.github.io/web_project_3/)_
+___

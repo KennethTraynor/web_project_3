@@ -1,0 +1,7 @@
+.header__lang-link {
+  display: none;
+}
+
+.header__lang-link:checked + .header__lang-label {
+  text-decoration: underline;
+}
