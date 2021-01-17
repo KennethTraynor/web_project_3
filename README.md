@@ -30,5 +30,5 @@ This project focused on making a website that has a responsive layout. This mean
 
 * Utilized percentages, viewport size, and the calc() function to control the size of elements instead of fixed values
 ___
-**Website:** _[Link to the website](https://kennethtraynor.github.io/web_project_3/)_
+**Website:** _[Link to the website](https://kennethtraynor.github.io/web_project_3/index.html)_
 ___
