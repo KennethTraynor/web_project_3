@@ -1,6 +1,8 @@
 @import url(__container/header__container.css);
 @import url(__lang-links/header__lang-links.css);
+@import url(__lang-item/header__lang-item.css);
 @import url(__lang-link/header__lang-link.css);
+@import url(__lang-link/_state/header__lang-link_state_active.css);
 @import url(__logo/header__logo.css);
 
 .header {
@@ -9,21 +11,21 @@
 }
 
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1024px) {
 
   .header {
     margin: 34px 48px 50px 48px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .header {
     margin: 34px 24px 50px 24px;
   }
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
 
   .header {
     margin: 20px 16px 50px 16px;

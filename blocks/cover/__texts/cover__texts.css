@@ -1,13 +1,31 @@
 .cover__texts {
-  margin: auto;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 283px auto 283px auto;
+  z-index: 1;
 }
 
+@media screen and (max-width: 1024px) {
 
-@media screen and (max-width: 767px) {
+.cover__texts {
+  margin: 233px auto 233px auto;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+.cover__texts {
+  margin: 153px auto 153px auto;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
 
   .cover__texts {
-    margin: auto 16px auto 16px;
+    margin: 50px 16px 50px 16px;
   }
 
 }

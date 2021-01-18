@@ -2,21 +2,11 @@
   color: white;
   font-size: 24px;
   line-height: 28px;
-  padding-right: 18px;
   text-align: right;
   text-decoration: none;
 }
 
-.header__lang-link:last-of-type {
-  padding: 0;
-}
-
-.header__lang-link:active {
-  text-decoration: underline;
-}
-
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
 
   .header__lang-link {
     font-size: 18px;

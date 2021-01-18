@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="pages/index.css">
   <title>From Portland to Portland</title>
 </head>
+
 <body class="body">
   <div class="page">
 
@@ -13,12 +14,14 @@
       <div class="header__container">
         <img src="images/logo.svg" alt="The USA Logo" class="header__logo">
 
-        <div class="header__lang-links">
+        <ul class="header__lang-links">
 
-          <a class="header__lang-link link-hover" href="#" target="_self">En</a>
-          <a class="header__lang-link link-hover" href="#" target="_self">Es</a>
+          <!-- If this were to be functional it would use javascript to change the underlined text, but I don't know javascript yet. (Unless there is some other way to do this) -->
+          <li class="header__lang-item"><a class="header__lang-link header__lang-link_state_active link-hover" href="#">En</a></li>
+          <li class="header__lang-item"><a class="header__lang-link link-hover" href="#">Es</a></li>
 
-        </div>
+        </ul>
+
       </div>
     </header>
 
@@ -165,17 +168,11 @@
 
         <a target="_blank" href="https://www.nps.gov/nr/travel/route66/maps66.html" class="cover__link">
 
-          <div class="cover__container">
+          <div class="cover__overlay"></div>
 
-            <img class="cover__background" src="images/cover-route-66.jpg" alt="An image of Route 66">
-
-            <div class="cover__overlay"></div>
-
-            <div class="cover__texts">
-              <h2 class="cover__title">Historic Route 66</h2>
-              <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
-            </div>
-
+          <div class="cover__texts">
+            <h2 class="cover__title">Historic Route 66</h2>
+            <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
           </div>
 
         </a>
