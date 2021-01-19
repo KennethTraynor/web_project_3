@@ -35,6 +35,7 @@
   .place-card {
     grid-template-columns: 1fr;
     column-gap: 0;
+    row-gap: 32px;
   }
 
 }
